@@ -18,7 +18,7 @@ However, there are some disadvantages when use ActiveMQ Servers as Cluster. <br 
 
 ## architecture ##
 
-![architecture](http://159.226.95.156:9991/AQBalancer/images/architecture.png)
+![architecture](architecture.png)
 
 
 How to the ActiveMQ Balancer work:
