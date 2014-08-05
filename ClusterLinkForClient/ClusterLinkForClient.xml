@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <controllerServer>
+	   	<ip>127.0.0.1</ip>
+	   	<port>9901</port>
+	   	<channelkey>1234567890_clientlink_channelkey</channelkey>
+    </controllerServer> 
+</root>
