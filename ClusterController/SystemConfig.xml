@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+
+   <brokerServer>
+   		<port>9992</port>
+   		<channelkey>1234567890_brokerlink_channelkey</channelkey>
+   		<heartbeattime>5000</heartbeattime><!-- 心跳时间1000为1秒钟 -->
+   		<virtualnode>5</virtualnode>
+   </brokerServer>
+   
+   <clientServer>
+   		<port>9901</port>
+   		<channelkey>1234567890_clientlink_channelkey</channelkey>   	
+   </clientServer>
+   
+   <transportConnectors>
+            <!-- DOS protection, limit concurrent connections to 1000 and frame size to 100MB -->
+        <transportConnector name="openwire" uri="tcp://0.0.0.0:61616"/>
+        <transportConnector name="amqp" uri="amqp://0.0.0.0:5672"/>
+        <transportConnector name="stomp" uri="stomp://0.0.0.0:61613"/>
+        <transportConnector name="mqtt" uri="mqtt://0.0.0.0:1883"/>
+        <transportConnector name="ws" uri="ws://0.0.0.0:61614"/>
+  </transportConnectors>
+   
+</root>

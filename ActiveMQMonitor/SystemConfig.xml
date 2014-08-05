@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <controllerServer>
+	   	<ip>127.0.0.1</ip>
+	   	<port>9992</port>
+	   	<channelkey>1234567890_brokerlink_channelkey</channelkey>
+	   	<heartbeattime>5000</heartbeattime>
+	   	<monitorport>11099</monitorport>
+    </controllerServer>   
+   
+</root>
